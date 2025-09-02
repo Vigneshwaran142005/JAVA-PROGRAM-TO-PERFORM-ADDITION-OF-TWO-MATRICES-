@@ -62,8 +62,30 @@ o After finishing, click File > Exit to close Eclipse IDE.
 
 
 ## PROGRAM:
+public class SeparateOddEven {
+    public static void main(String[] args) {
+        int[] numbers = {12, 45, 23, 56, 89, 34, 67, 90, 11, 22}; // Example array
 
-## OUTPUT:
+        System.out.print("Even Numbers: ");
+        for (int num : numbers) {
+            if (num % 2 == 0) {
+                System.out.print(num + " ");
+            }
+        }
+
+        System.out.println(); // For a new line
+
+        System.out.print("Odd Numbers: ");
+        for (int num : numbers) {
+            if (num % 2 != 0) {
+                System.out.print(num + " ");
+            }
+        }
+    }
+}
+
+## OUTPUT:<img width="1915" height="1062" alt="Screenshot 2025-09-02 155416" src="https://github.com/user-attachments/assets/119a7d96-863e-4295-adb9-3bc46b07696c" />
+
 
 ## RESULT:
 
